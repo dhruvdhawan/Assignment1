@@ -1,14 +1,17 @@
+body {
+  background-color: #e0def4;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #26233a;
   }
   
   li {
     float: right;
-  }
+    font-family: 'Montserrat', sans-serif;  }
   
   li a {
     display: block;
@@ -19,11 +22,11 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #9ccfd8;
   }
   
   .active {
-    background-color: #04AA6D;
+    background-color: #31748f;
   }
   .addnote {
     top:11%;
@@ -31,16 +34,18 @@ ul {
     width:200px;
     height:40px;
     position: absolute;
+    font-family: 'Montserrat', sans-serif;
 
     }
     .footer {
       position: absolute;
       bottom: 0;
       left:50%;
-   }
+      font-family: 'Montserrat', sans-serif;   }
    .textareadiv {
      position: absolute;
      left: 50%;
+     font-family: 'Smooch Sans', sans-serif;
      
    }
    .te{
@@ -57,16 +62,16 @@ ul {
   
   textarea{
     display:block;
-  }
+    font-family: 'Fredoka', sans-serif;  }
   .sidebar{
   margin: 0;
   padding: 0;
   width: 10%;
-  background-color: #f1f1f1;
+  background-color: #907aa9;
   position: fixed;
   height: 100%;
   overflow: auto;
-}
+  font-family: 'Fredoka', sans-serif;}
 .open {
   top:1%;
   left:80%;
@@ -76,3 +81,5 @@ ul {
   z-index: 2;
   background: grey; 
   }
+  button {
+    font-family: 'Fredoka', sans-serif;  }
